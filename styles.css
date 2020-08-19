@@ -1,3 +1,22 @@
+
+/* grid */
+#board {
+    display: grid;
+    grid-template-columns: repeat(100, 1fr);
+    margin: 0px;
+    padding: 0px;
+    border: none;
+}
+
+/* empty cells */
 div {
+    background-color: rgb(231, 223, 236);
+    border: 0px solid black;
+    height: 5px;
+    width: 5px;
+}
+
+/* filled cells */
+.active {
     background-color: black;
 }
