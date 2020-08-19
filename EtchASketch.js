@@ -1,5 +1,3 @@
-alert("conn");
-
 var board = document.querySelector("#board");
 var boxes = document.querySelectorAll(".box");
 var numberOfBoxes = 10000;
